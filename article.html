@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1></h1>
+    <h2>by <span></span></h2>
+    <p></p>
+    <section class="comments">
+      <h2>Comments</h2>
+
+      <template class="commentTemplate">
+        <li class="mui-pannel"></li>
+        <h3>Great article</h3>
+        <p class="mui--text-dark-secondary mui--text-title">by stef</p>
+      </template>
+
+      <ol class="commentList"></ol>
+    </section>
+    <form>
+      <label for="comment_username">Username</label>
+      <input
+        placeholder="What can we call u?"
+        type="text"
+        required
+        name="username"
+        id="comment_username"
+      />
+
+      <label for="comment_email">E-mail</label>
+      <input type="text" required name="email" id="comment_email" />
+
+      <label for="comment_content">Your Comment</label>
+      <textarea
+        type="text"
+        required
+        name="content"
+        id="comment_content"
+      ></textarea>
+      <input type="submit" value="Save comment" />
+    </form>
+
+    <script src="article.js"></script>
+  </body>
+</html>

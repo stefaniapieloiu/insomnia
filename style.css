@@ -1,0 +1,9 @@
+input,
+textarea,
+label {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
